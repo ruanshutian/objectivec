@@ -11,8 +11,8 @@
 
 @property(nonatomic,strong)UIWindow *window;
 @property(nonatomic)UITableView *taskTable;
-@property(nonatomic)UITextField *taskTield;
-@property(nonatomic)UIButton *interButton;
+@property(nonatomic)UITextField *taskField;
+@property(nonatomic)UIButton *insertButton;
 
 @property(nonatomic)NSMutableArray *tasks;
 

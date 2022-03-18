@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Integer</key>
+		<integer>555</integer>
+		<key>bool</key>
+		<true/>
+		<key>date</key>
+		<date>2022-03-17T14:38:21Z</date>
+		<key>float</key>
+		<real>5.1999998092651367</real>
+		<key>shares</key>
+		<integer>520</integer>
+		<key>symbol</key>
+		<string>aron111</string>
+	</dict>
+</array>
+</plist>
