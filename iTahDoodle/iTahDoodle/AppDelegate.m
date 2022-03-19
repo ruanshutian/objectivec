@@ -7,7 +7,7 @@
 
 #import "AppDelegate.h"
 
-#pragma mark
+
 
 @interface AppDelegate ()
 
@@ -15,6 +15,7 @@
 
 @implementation AppDelegate
 
+#pragma mark - Application delegate callbacks
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -22,6 +23,7 @@
     CGRect winFrame = [[UIScreen mainScreen]bounds];
     UIWindow *theWindow =[[UIWindow alloc]initWithFrame:winFrame];
     self.window =theWindow;
+    NSLog(@"%@",self.window);
     
     CGRect tableFrame = CGRectMake(0, 80, winFrame.size.width,winFrame.size.height-100);
     
@@ -43,12 +45,17 @@
     
     [self.insertButton setTitle:@"Insert" forState:UIControlStateNormal];
     
+    [self.insertButton addTarget:self action:@selector((addTask:)) forControlEvents:UIControlEventTouchUpInside];
+    
     [self.window addSubview:self.taskTable];
     [self.window addSubview:self.taskField];
     [self.window addSubview:self.insertButton];
     
     self.window.backgroundColor=[UIColor whiteColor];
+//    self.window.hidden=NO; 
     [self.window makeKeyAndVisible];
+    NSLog(@"HELLOE");
+    
     
     return YES;
 }
