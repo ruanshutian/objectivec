@@ -17,6 +17,8 @@
 		CD38A31D27E4515900813B59 /* iTahDoodleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38A31C27E4515900813B59 /* iTahDoodleTests.m */; };
 		CD38A32727E4515900813B59 /* iTahDoodleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38A32627E4515900813B59 /* iTahDoodleUITests.m */; };
 		CD38A32927E4515900813B59 /* iTahDoodleUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38A32827E4515900813B59 /* iTahDoodleUITestsLaunchTests.m */; };
+		CDCAE01F27E80EFA00842A4B /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCAE01E27E80EFA00842A4B /* SubViewController.m */; };
+		CDCAE02127E8124700842A4B /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDCAE02027E8124700842A4B /* SubViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		CD38A32227E4515900813B59 /* iTahDoodleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTahDoodleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD38A32627E4515900813B59 /* iTahDoodleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTahDoodleUITests.m; sourceTree = "<group>"; };
 		CD38A32827E4515900813B59 /* iTahDoodleUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTahDoodleUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CDCAE01D27E80EFA00842A4B /* SubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		CDCAE01E27E80EFA00842A4B /* SubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		CDCAE02027E8124700842A4B /* SubViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +120,9 @@
 				CD38A30E27E4515900813B59 /* LaunchScreen.storyboard */,
 				CD38A31127E4515900813B59 /* Info.plist */,
 				CD38A31227E4515900813B59 /* main.m */,
+				CDCAE01D27E80EFA00842A4B /* SubViewController.h */,
+				CDCAE01E27E80EFA00842A4B /* SubViewController.m */,
+				CDCAE02027E8124700842A4B /* SubViewController.xib */,
 			);
 			path = iTahDoodle;
 			sourceTree = "<group>";
@@ -242,6 +250,7 @@
 				CD38A31027E4515900813B59 /* LaunchScreen.storyboard in Resources */,
 				CD38A30D27E4515900813B59 /* Assets.xcassets in Resources */,
 				CD38A30B27E4515700813B59 /* Main.storyboard in Resources */,
+				CDCAE02127E8124700842A4B /* SubViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCAE01F27E80EFA00842A4B /* SubViewController.m in Sources */,
 				CD38A30827E4515700813B59 /* ViewController.m in Sources */,
 				CD38A30227E4515700813B59 /* AppDelegate.m in Sources */,
 				CD38A31327E4515900813B59 /* main.m in Sources */,
