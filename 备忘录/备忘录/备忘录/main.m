@@ -49,6 +49,8 @@ int main(int argc, const char * argv[]) {
 //        self.xx =  [[NSMutableArray alloc] init] 是错的
 //        除了 alloc , 其他关键词还有  “new”, “copy”, or “mutableCopy”
         
+//    https://zoomdev.us
+        
 //    https://salttiger.com/programming-ios-13/
     }
     return 0;
